@@ -1,18 +1,12 @@
 
-import Home from "./Pages/Home";
 import "./app.css"
-import Login from "./Pages/Login";
-import Produtos from "./Pages/Produtos";
-import AddProduct from "./Pages/AddProduct";
-import Produto from "./Pages/Produto";
+import MainRoutes from "./Components/Routes";
 
 function App() {
 
 
   return (
-    <>
-    <Produto/>
-    </>
+   <MainRoutes/>
   )
 }
 

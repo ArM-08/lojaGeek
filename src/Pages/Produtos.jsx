@@ -3,6 +3,7 @@ import Footer from "../Components/Footer";
 import NavBar from "../Components/NavBar";
 import { TitleProduct, TextLineContainer, ProductRowContainer} from "../Components/FirstLineProducts/styled";
 import CardProducts from "../Components/CardProducts";
+import ImgTeste from "./../assets/images/star-wars.png"
 
 const ProdutosContainer = styled.div`
 width: 90vw;
@@ -44,22 +45,24 @@ const Produtos = () => {
 <ButtonAddProduct>Adicionar produto</ButtonAddProduct>
 </TextLineContainer>
 <ProductRowContainer>
-<CardProducts></CardProducts>
-            <CardProducts></CardProducts>
-            <CardProducts></CardProducts>
-            <CardProducts></CardProducts>
-            <CardProducts></CardProducts>
-            <CardProducts></CardProducts><CardProducts></CardProducts>
-            <CardProducts></CardProducts>
-            <CardProducts></CardProducts>
-            <CardProducts></CardProducts>
-            <CardProducts></CardProducts>
-            <CardProducts></CardProducts><CardProducts></CardProducts>
-            <CardProducts></CardProducts>
-            <CardProducts></CardProducts>
-            <CardProducts></CardProducts>
-            <CardProducts></CardProducts>
-            <CardProducts></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
 </ProductRowContainer>
 </ProdutosContainer>
 </PageContainer>

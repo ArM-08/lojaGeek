@@ -4,7 +4,7 @@ import { PageContainer } from "./Produtos";
 import { ProductContainer,  TitleProduct, ProductRowContainer } from "../Components/FirstLineProducts/styled";
 import CardUnitario from "../Components/CardUnitario";
 import CardProducts from "../Components/CardProducts";
-
+import ImgTeste from "./../assets/images/star-wars.png"
 
 
 const Produto = ()=> {
@@ -16,12 +16,12 @@ const Produto = ()=> {
 <ProductContainer>
     <TitleProduct>Produtos Similares</TitleProduct>
     <ProductRowContainer>
-        <CardProducts></CardProducts>
-        <CardProducts></CardProducts>
-        <CardProducts></CardProducts>
-        <CardProducts></CardProducts>
-        <CardProducts></CardProducts>
-        <CardProducts></CardProducts>
+    <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
+            <CardProducts img={ImgTeste} name= {"Product"} value= {"R$ 40,00"} link={"/produto"}></CardProducts>
     </ProductRowContainer>
     </ProductContainer>
 </PageContainer>

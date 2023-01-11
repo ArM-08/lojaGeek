@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Teste from "./../../assets/images/star-wars.png"
+
 
 export const Card = styled.div`
 width: 176px;
@@ -42,13 +42,13 @@ margin: 3px 0;
 
 
 
-const CardProducts = () => {
+const CardProducts = ({img, name, value, link}) => {
     return (
     <Card>
-        <CardImg src={Teste}/>
-        <CardTitle>Product</CardTitle>
-        <CardValor>R$ 40,00</CardValor>
-        <CardLink>Ver produto</CardLink>
+        <CardImg src={img}/>
+        <CardTitle>{name}</CardTitle>
+        <CardValor>{value}</CardValor>
+        <CardLink href={link}>Ver Produto</CardLink>
     </Card>
     )
 

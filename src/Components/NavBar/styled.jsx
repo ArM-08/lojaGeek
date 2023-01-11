@@ -72,8 +72,14 @@ justify-content: space-between;
 
 export const Lupa = styled.img`
 `
+
+
 export const ButtonLogin = styled.button`
-align-items: end;
+
+display: flex;
+box-sizing: border-box;
+text-align: center;
+text-decoration: none;
 width: 182px;
 font-family: 'Raleway';
 font-style: normal;
@@ -81,7 +87,15 @@ height: 51px;
 color: #2A7AE4;
 border: 1px solid #2A7AE4;
 background-color: #FFF;
-justify-self: end;
+justify-content: center;
+align-items: center;
+font-size: 15px;
+
+
+&:hover{
+    background-color: #2A7AE4;
+    color: #FFF}
+}
 @media (max-width: 1024px) {
     width: 166px;
     height: 40px;
@@ -90,3 +104,4 @@ justify-self: end;
     width: 133px;
     height: 40px;
 `
+
